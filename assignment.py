@@ -1,4 +1,3 @@
-
 # Category 1(a)
 def upper(str):
     string = str.upper()
@@ -15,6 +14,7 @@ def lower(str):
 
 print(lower("the new line"))
 
+
 # Category 1(b)
 def numeric_values_in_string(value):
     for character in value:
@@ -25,6 +25,7 @@ def numeric_values_in_string(value):
 
 print(numeric_values_in_string('1s4f6h'))
 
+
 # Category 1(c)
 def given_string_valid(str):
     if str.isdigit():
@@ -32,4 +33,11 @@ def given_string_valid(str):
     else:
         print("User input is string ")
 
+
 given_string_valid("90")
+
+
+
+
+
+

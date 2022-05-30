@@ -12,10 +12,10 @@ meters_to_feet_and_vicevers(key)
 def centimeter_to_inch_and_vicevers(numb):
     centi_to_inch = numb * 0.393701
 
-    print("result of centimeter is :", centi_to_inch)
+    print("result of inch is :", centi_to_inch)
 
     inch_to_centi = numb * 2.54
-    print("result of inch is :", inch_to_centi)
+    print("result of centimeter is :", inch_to_centi)
 
 
 key = int(input('please enter your input : '))
