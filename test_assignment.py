@@ -1,6 +1,6 @@
 import unittest
 
-from assignment import upper, lower
+from assignment import upper, lower, given_string_valid
 
 
 class TestAssignment(unittest.TestCase):
@@ -13,6 +13,11 @@ class TestAssignment(unittest.TestCase):
         result = lower("HELLO WORLD")
         print('result l:', result)
         self.assertEqual(result, 'hello world')
+
+    def test_valid_string(self):
+        result_1 = given_string_valid('sss')
+        print('result_1:', result_1)
+        self.assertTrue(result_1)
 
 
 if __name__ == '__main__':

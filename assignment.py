@@ -12,7 +12,7 @@ def lower(str):
     return string
 
 
-print(lower("the new line"))
+print(lower("HELLO WORLD"))
 
 
 # Category 1(b)
@@ -29,12 +29,14 @@ print(numeric_values_in_string('1s4f6h'))
 # Category 1(c)
 def given_string_valid(str):
     if str.isdigit():
-        print("User input is an Integer ")
+
+        return False
     else:
-        print("User input is string ")
+
+        return True
 
 
-given_string_valid("90")
+print(given_string_valid("90"))
 
 
 
